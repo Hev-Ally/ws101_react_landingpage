@@ -1,10 +1,9 @@
 // src/components/About.jsx
 import React from 'react';
-import webImage from './assets/web1.webp'; // Correct path
+import webImage from '../assets/web1.webp'; // Adjust path as needed
 
 const About = () => {
   return (
-    <section id="about">
       <div className="about container">
         <div className="col-left">
           <div className="about-img">
