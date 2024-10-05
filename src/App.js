@@ -4,18 +4,20 @@ import Hero from './components/Hero';
 import About from './components/About';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
-import './App.css'; 
+import './App.css'; // Import your CSS
+// App.js
 
-const App = () => {
+
+function App() {
   return (
     <div>
       <Header />
       <Hero />
       <About />
       <Contact />
-      <Footer />
+      <Footer/>
     </div>
   );
-};
+}
 
 export default App;
